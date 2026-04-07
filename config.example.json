@@ -1,0 +1,33 @@
+{
+  "app_name": "Order Info Extractor Demo",
+  "catalog_path": "src/product_catalog.json",
+  "confidence_threshold": 0.82,
+  "source": {
+    "provider": "fixture",
+    "fixture_path": "tests/fixtures/mock_outlook_inbox.json",
+    "fixture_llm_path": "tests/fixtures/mock_llm_responses.json",
+    "user_email": "orders@example.com",
+    "client_id": "",
+    "client_secret": "",
+    "tenant_id": ""
+  },
+  "openai": {
+    "api_key": "",
+    "model": "gpt-4o-mini",
+    "timeout_seconds": 30
+  },
+  "retry": {
+    "attempts": 3,
+    "base_delay_seconds": 0.25,
+    "max_delay_seconds": 2.0,
+    "jitter_ratio": 0.2
+  },
+  "paths": {
+    "output_root": "artifacts",
+    "exports_dir": "exports",
+    "review_dir": "manual_review",
+    "logs_dir": "logs",
+    "runs_dir": "runs",
+    "state_db": "state/pipeline_state.sqlite3"
+  }
+}

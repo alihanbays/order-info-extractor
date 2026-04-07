@@ -1,0 +1,758 @@
+{
+  "2": {
+    "product": "Disp 3.5 Gal",
+    "category": "Whole Milk"
+  },
+  "83": {
+    "product": "Fresh Heavy Cream Quart",
+    "category": "Heavy Cream & Half & Half"
+  },
+  "244": {
+    "product": "Liquid 32 oz",
+    "category": "Eggs"
+  },
+  "3": {
+    "product": "Gallon (CS/4 only)",
+    "category": "Whole Milk"
+  },
+  "81": {
+    "product": "Fresh Heavy Cream Pint",
+    "category": "Heavy Cream & Half & Half"
+  },
+  "242": {
+    "product": "EX LG Loose 15 doz",
+    "category": "Eggs"
+  },
+  "48": {
+    "product": "100 oz Disp",
+    "category": "Whole Milk"
+  },
+  "786": {
+    "product": "36% Ultra  Paper Qt (CS/12 only)",
+    "category": "Heavy Cream & Half & Half"
+  },
+  "245": {
+    "product": "EX LG Box doz",
+    "category": "Eggs"
+  },
+  "4": {
+    "product": "Half Gallon",
+    "category": "Whole Milk"
+  },
+  "87": {
+    "product": "40% Ultra Paper Qt (CS/12 only)",
+    "category": "Heavy Cream & Half & Half"
+  },
+  "246": {
+    "product": "LG Loose 15 doz",
+    "category": "Eggs"
+  },
+  "1": {
+    "product": "Quart",
+    "category": "Whole Milk"
+  },
+  "71": {
+    "product": "H&H Disp 3.5 Gal",
+    "category": "Heavy Cream & Half & Half"
+  },
+  "247": {
+    "product": "LG Box doz",
+    "category": "Eggs"
+  },
+  "5": {
+    "product": "Plastic Pint",
+    "category": "Whole Milk"
+  },
+  "29": {
+    "product": "H&H 100 oz Disp",
+    "category": "Heavy Cream & Half & Half"
+  },
+  "9": {
+    "product": "Half Pint (CS/50 only)",
+    "category": "Whole Milk"
+  },
+  "72": {
+    "product": "H&H Fresh Paper Quart",
+    "category": "Heavy Cream & Half & Half"
+  },
+  "296": {
+    "product": "Apple Juice HGL",
+    "category": "100% Juice"
+  },
+  "12": {
+    "product": "4 oz (CS/75)",
+    "category": "Whole Milk"
+  },
+  "73": {
+    "product": "H&H Fresh Paper Pint",
+    "category": "Heavy Cream & Half & Half"
+  },
+  "591": {
+    "product": "Apple Juice Plastic Pint",
+    "category": "100% Juice"
+  },
+  "75": {
+    "product": "H&H Creamer 3/8oz 402ct",
+    "category": "Heavy Cream & Half & Half"
+  },
+  "293": {
+    "product": "Apple Juice HPT (CS/50 only)",
+    "category": "100% Juice"
+  },
+  "30": {
+    "product": "Disp 3.5 Gal",
+    "category": "2% Milk"
+  },
+  "140": {
+    "product": "Shelf Stable 3/8oz 360ct",
+    "category": "Heavy Cream & Half & Half"
+  },
+  "297": {
+    "product": "Apple Juice 4 oz (CS/75 only)",
+    "category": "100% Juice"
+  },
+  "31": {
+    "product": "Gallon (CS/4 only)",
+    "category": "2% Milk"
+  },
+  "80": {
+    "product": "18% Fresh Coffee Cream HGL",
+    "category": "Heavy Cream & Half & Half"
+  },
+  "266": {
+    "product": "Orange Juice Gallon (CS/4 only)",
+    "category": "100% Juice"
+  },
+  "94": {
+    "product": "Half Gallon",
+    "category": "2% Milk"
+  },
+  "121": {
+    "product": "Aerosol Whipped Crm (CS/12 only)",
+    "category": "Heavy Cream & Half & Half"
+  },
+  "267": {
+    "product": "Orange Juice HGL",
+    "category": "100% Juice"
+  },
+  "102": {
+    "product": "Quart",
+    "category": "2% Milk"
+  },
+  "261": {
+    "product": "Orange Juice Quart",
+    "category": "100% Juice"
+  },
+  "107": {
+    "product": "Plastic Pint",
+    "category": "2% Milk"
+  },
+  "201": {
+    "product": "Trnr 6% Vanilla Gal (CS/4 only)",
+    "category": "Ice Cream Mix"
+  },
+  "590": {
+    "product": "Orange Juice Plastic Pint",
+    "category": "100% Juice"
+  },
+  "34": {
+    "product": "Half Pint (CS/50 only)",
+    "category": "2% Milk"
+  },
+  "203": {
+    "product": "Trnr 6% Chocolate Gal (CS/4 only)",
+    "category": "Ice Cream Mix"
+  },
+  "262": {
+    "product": "Orange Juice HPT (CS/50 only)",
+    "category": "100% Juice"
+  },
+  "36": {
+    "product": "4 oz (CS/75 only)",
+    "category": "2% Milk"
+  },
+  "211": {
+    "product": "10% Van Gallon (CS/4 only)",
+    "category": "Ice Cream Mix"
+  },
+  "264": {
+    "product": "Orange Juice 4 oz (CS/75 only)",
+    "category": "100% Juice"
+  },
+  "212": {
+    "product": "10% Choc Gallon (CS/4 only)",
+    "category": "Ice Cream Mix"
+  },
+  "641": {
+    "product": "Apple Cran HGL",
+    "category": "100% Juice"
+  },
+  "22": {
+    "product": "Gallon (CS/4 only)",
+    "category": "1% Milk"
+  },
+  "214": {
+    "product": "14% White Gallon (CS/4 only)",
+    "category": "Ice Cream Mix"
+  },
+  "639": {
+    "product": "Apple Cran 4 oz (CS/75 only)",
+    "category": "100% Juice"
+  },
+  "96": {
+    "product": "Half Gallon",
+    "category": "1% Milk"
+  },
+  "188": {
+    "product": "Unflavored Mix 15% Two-2.5gal",
+    "category": "Ice Cream Mix"
+  },
+  "270": {
+    "product": "Fruit Punch 4 oz (CS/75 only)",
+    "category": "100% Juice"
+  },
+  "14": {
+    "product": "Half Pint (CS/50 only)",
+    "category": "1% Milk"
+  },
+  "581": {
+    "product": "Grape Juice 4 oz (CS/75 only)",
+    "category": "100% Juice"
+  },
+  "23": {
+    "product": "4 oz (CS/75 only)",
+    "category": "1% Milk"
+  },
+  "103": {
+    "product": "5 lbs Vanilla",
+    "category": "Slim n Trim Yogurt"
+  },
+  "587": {
+    "product": "Prune Juice 4 oz (CS/75 only)",
+    "category": "100% Juice"
+  },
+  "104": {
+    "product": "5 lbs Plain",
+    "category": "Slim n Trim Yogurt"
+  },
+  "41": {
+    "product": "Disp 3.5 Gal",
+    "category": "Fat Free  Skim Milk"
+  },
+  "105": {
+    "product": "5 lbs Strawberry",
+    "category": "Slim n Trim Yogurt"
+  },
+  "271": {
+    "product": "Orange Drink Gallon (CS/4 only)",
+    "category": "Fruit Drinks"
+  },
+  "40": {
+    "product": "Gallon (CS/4 only)",
+    "category": "Fat Free  Skim Milk"
+  },
+  "110": {
+    "product": "5 lbs Raspberry",
+    "category": "Slim n Trim Yogurt"
+  },
+  "278": {
+    "product": "Orange Drink Quart",
+    "category": "Fruit Drinks"
+  },
+  "98": {
+    "product": "Half Gallon",
+    "category": "Fat Free  Skim Milk"
+  },
+  "111": {
+    "product": "5 lbs Peach",
+    "category": "Slim n Trim Yogurt"
+  },
+  "273": {
+    "product": "Orange Drink Paper Pint",
+    "category": "Fruit Drinks"
+  },
+  "97": {
+    "product": "Quart",
+    "category": "Fat Free  Skim Milk"
+  },
+  "112": {
+    "product": "5 lbs Blueberry",
+    "category": "Slim n Trim Yogurt"
+  },
+  "275": {
+    "product": "Orange Drink HPT (CS/50 only)",
+    "category": "Fruit Drinks"
+  },
+  "113": {
+    "product": "Plastic Pint",
+    "category": "Fat Free  Skim Milk"
+  },
+  "284": {
+    "product": "Fruit Punch Gallon (CS/4 only)",
+    "category": "Fruit Drinks"
+  },
+  "45": {
+    "product": "Half Pint (CS/50 only)",
+    "category": "Fat Free  Skim Milk"
+  },
+  "89": {
+    "product": "5 lbs",
+    "category": "Sour Cream & Dip"
+  },
+  "283": {
+    "product": "Fruit Punch Quart",
+    "category": "Fruit Drinks"
+  },
+  "46": {
+    "product": "4 oz (CS/75 only)",
+    "category": "Fat Free  Skim Milk"
+  },
+  "790": {
+    "product": "16 oz (CS/6 only)",
+    "category": "Sour Cream & Dip"
+  },
+  "286": {
+    "product": "Lemonade HGL",
+    "category": "Fruit Drinks"
+  },
+  "791": {
+    "product": "8 oz (CS/6 only)",
+    "category": "Sour Cream & Dip"
+  },
+  "300": {
+    "product": "Lemonade Quart",
+    "category": "Fruit Drinks"
+  },
+  "106": {
+    "product": "Gallon (CS/4 only)",
+    "category": "Chocolate & Flavored Milk"
+  },
+  "92": {
+    "product": "Cups 1 oz 100ct",
+    "category": "Sour Cream & Dip"
+  },
+  "592": {
+    "product": "Lemonade Plastic Pint",
+    "category": "Fruit Drinks"
+  },
+  "60": {
+    "product": "Half Gallon",
+    "category": "Chocolate & Flavored Milk"
+  },
+  "792": {
+    "product": "Onion Dip 12 oz (CS/6 only)",
+    "category": "Sour Cream & Dip"
+  },
+  "287": {
+    "product": "Lemonade Paper Pint",
+    "category": "Fruit Drinks"
+  },
+  "50": {
+    "product": "Quart",
+    "category": "Chocolate & Flavored Milk"
+  },
+  "289": {
+    "product": "Lemonade HPT (CS/50 only)",
+    "category": "Fruit Drinks"
+  },
+  "115": {
+    "product": "Plastic Pint",
+    "category": "Chocolate & Flavored Milk"
+  },
+  "149": {
+    "product": "Slim 5 lbs",
+    "category": "Cottage Cheese"
+  },
+  "302": {
+    "product": "Diet Lemonade HPT (CS/50 only)",
+    "category": "Fruit Drinks"
+  },
+  "54": {
+    "product": "Half Pint (CS/50 only)",
+    "category": "Chocolate & Flavored Milk"
+  },
+  "150": {
+    "product": "4% Cottage Chs 5 lbs",
+    "category": "Cottage Cheese"
+  },
+  "594": {
+    "product": "Stawberry Lemonade Plastic Pint",
+    "category": "Fruit Drinks"
+  },
+  "47": {
+    "product": "1% Disp 3.5 Gal",
+    "category": "Chocolate & Flavored Milk"
+  },
+  "751": {
+    "product": "4% Cottage Chs 24 oz (CS/6 only)",
+    "category": "Cottage Cheese"
+  },
+  "51": {
+    "product": "1% Gallon (CS/4 only)",
+    "category": "Chocolate & Flavored Milk"
+  },
+  "748": {
+    "product": "Lowfat 16 oz (CS/6 only)",
+    "category": "Cottage Cheese"
+  },
+  "49": {
+    "product": "1% Half Gallon",
+    "category": "Chocolate & Flavored Milk"
+  },
+  "752": {
+    "product": "4% Cottage Chs 16 oz (CS/6 only)",
+    "category": "Cottage Cheese"
+  },
+  "118": {
+    "product": "1% Plastic Pint",
+    "category": "Chocolate & Flavored Milk"
+  },
+  "166": {
+    "product": "5.3 oz Plain (CS/6 only)",
+    "category": "Cottage Cheese"
+  },
+  "560": {
+    "product": "Premium Tea Gallon (CS/4 only)",
+    "category": "Premium & Flavored Teas"
+  },
+  "68": {
+    "product": "1% HPT (CS/50 only)",
+    "category": "Chocolate & Flavored Milk"
+  },
+  "167": {
+    "product": "5.3 oz Peach (CS/6 only)",
+    "category": "Cottage Cheese"
+  },
+  "555": {
+    "product": "Premium Tea HGL",
+    "category": "Premium & Flavored Teas"
+  },
+  "42": {
+    "product": "FF HPT (CS/50 only)",
+    "category": "Chocolate & Flavored Milk"
+  },
+  "168": {
+    "product": "5.3 oz Pineapple (CS/6 only)",
+    "category": "Cottage Cheese"
+  },
+  "561": {
+    "product": "Premium Tea Quart",
+    "category": "Premium & Flavored Teas"
+  },
+  "116": {
+    "product": "1% Strawberry Pint",
+    "category": "Chocolate & Flavored Milk"
+  },
+  "153": {
+    "product": "Dry Cottage Cheese 75 oz",
+    "category": "Cottage Cheese"
+  },
+  "563": {
+    "product": "Premium Tea Plas 20 oz",
+    "category": "Premium & Flavored Teas"
+  },
+  "19": {
+    "product": "1% Strawberry HPT (CS/50 only)",
+    "category": "Chocolate & Flavored Milk"
+  },
+  "154": {
+    "product": "Dry Cottage Cheese 14 oz",
+    "category": "Cottage Cheese"
+  },
+  "600": {
+    "product": "Premium Tea Plastic Pint",
+    "category": "Premium & Flavored Teas"
+  },
+  "20": {
+    "product": "FF Vanilla HPT (CS/50 only)",
+    "category": "Chocolate & Flavored Milk"
+  },
+  "291": {
+    "product": "Premium Tea Paper Pint",
+    "category": "Premium & Flavored Teas"
+  },
+  "161": {
+    "product": "Ricotta 2 lbs 14 oz (CS/6 only)",
+    "category": "Misc. Cheese"
+  },
+  "301": {
+    "product": "Premium Tea HPT (CS/50 only)",
+    "category": "Premium & Flavored Teas"
+  },
+  "162": {
+    "product": "Ricotta 24 oz (CS/12 only)",
+    "category": "Misc. Cheese"
+  },
+  "550": {
+    "product": "Diet LoCal Gal (CS/4 only)",
+    "category": "Premium & Flavored Teas"
+  },
+  "163": {
+    "product": "Ricotta 15 oz (CS/12 only)",
+    "category": "Misc. Cheese"
+  },
+  "556": {
+    "product": "Diet LoCal HGL",
+    "category": "Premium & Flavored Teas"
+  },
+  "142": {
+    "product": "2% Half Gallon",
+    "category": "Lactose Free  & Non Dairy"
+  },
+  "170": {
+    "product": "American Sliced 5lbs (CS/4 only)",
+    "category": "Misc. Cheese"
+  },
+  "552": {
+    "product": "Diet LoCal Quart",
+    "category": "Premium & Flavored Teas"
+  },
+  "143": {
+    "product": "Lactose Free HPT (CS/25 only)",
+    "category": "Lactose Free  & Non Dairy"
+  },
+  "171": {
+    "product": "American Sliced 12 oz (CS/12 only)",
+    "category": "Misc. Cheese"
+  },
+  "565": {
+    "product": "Diet LoCal Plas 20 oz",
+    "category": "Premium & Flavored Teas"
+  },
+  "26": {
+    "product": "Lactaid Quart (CS/12 only)",
+    "category": "Lactose Free  & Non Dairy"
+  },
+  "180": {
+    "product": "Pizza Chs Shred 5 lbs (CS/6 only)",
+    "category": "Misc. Cheese"
+  },
+  "601": {
+    "product": "Diet LoCal Plastic Pint",
+    "category": "Premium & Flavored Teas"
+  },
+  "130": {
+    "product": "Aerosol Whipped Crm (CS/12 only)",
+    "category": "Lactose Free  & Non Dairy"
+  },
+  "124": {
+    "product": "5 lbs PGH Cream Cheese",
+    "category": "Misc. Cheese"
+  },
+  "553": {
+    "product": "Diet LoCal Paper Pint",
+    "category": "Premium & Flavored Teas"
+  },
+  "133": {
+    "product": "Non Dairy Quart (CS/12 only)",
+    "category": "Lactose Free  & Non Dairy"
+  },
+  "554": {
+    "product": "Diet LoCal HPT (CS/50 only)",
+    "category": "Premium & Flavored Teas"
+  },
+  "134": {
+    "product": "Creamer 3/8oz 348ct",
+    "category": "Lactose Free  & Non Dairy"
+  },
+  "218": {
+    "product": "Continental 17 lbs 47ct/lb",
+    "category": "Butter & Margarine"
+  },
+  "313": {
+    "product": "Sweet Tea Gallon (CS/4 only)",
+    "category": "Premium & Flavored Teas"
+  },
+  "136": {
+    "product": "T Topping HGL",
+    "category": "Lactose Free  & Non Dairy"
+  },
+  "220": {
+    "product": "Quarters 16 oz",
+    "category": "Butter & Margarine"
+  },
+  "314": {
+    "product": "Sweet Tea HGL",
+    "category": "Premium & Flavored Teas"
+  },
+  "334": {
+    "product": "Almondmilk HGL (CS/6 only)",
+    "category": "Lactose Free  & Non Dairy"
+  },
+  "221": {
+    "product": "Solid 16 oz",
+    "category": "Butter & Margarine"
+  },
+  "315": {
+    "product": "Sweet Tea Quart",
+    "category": "Premium & Flavored Teas"
+  },
+  "336": {
+    "product": "Almondmilk Vanilla HGL (CS/6 only)",
+    "category": "Lactose Free  & Non Dairy"
+  },
+  "226": {
+    "product": "Whipped Tub 5 lbs (CS/4 only)",
+    "category": "Butter & Margarine"
+  },
+  "609": {
+    "product": "Sweet Tea Plastic Pint",
+    "category": "Premium & Flavored Teas"
+  },
+  "227": {
+    "product": "Cups 8 lbs 90ct/lb",
+    "category": "Butter & Margarine"
+  },
+  "340": {
+    "product": "Black & Gold Gallon (CS/4 only)",
+    "category": "Premium & Flavored Teas"
+  },
+  "61": {
+    "product": "1% Baking HGL",
+    "category": "Buttermilk"
+  },
+  "228": {
+    "product": "Sweet Block Cube 55 lbs",
+    "category": "Butter & Margarine"
+  },
+  "342": {
+    "product": "Black & Gold Quart",
+    "category": "Premium & Flavored Teas"
+  },
+  "62": {
+    "product": "1% Lowfat HGL",
+    "category": "Buttermilk"
+  },
+  "229": {
+    "product": "Solid Sweet 16 oz (CS/36 only)",
+    "category": "Butter & Margarine"
+  },
+  "343": {
+    "product": "Black & Gold Plastic Pint",
+    "category": "Premium & Flavored Teas"
+  },
+  "702": {
+    "product": "Charlie's Whole  HGL",
+    "category": "Buttermilk"
+  },
+  "236": {
+    "product": "Margarine Soft 16 oz (CS/18 only)",
+    "category": "Butter & Margarine"
+  },
+  "576": {
+    "product": "Peach Tea Gallon (CS/4 only)",
+    "category": "Premium & Flavored Teas"
+  },
+  "703": {
+    "product": "Charlie's Whole Quart",
+    "category": "Buttermilk"
+  },
+  "237": {
+    "product": "Margarine Solid 16 oz (CS/30 only)",
+    "category": "Butter & Margarine"
+  },
+  "577": {
+    "product": "Peach Tea HGL",
+    "category": "Premium & Flavored Teas"
+  },
+  "701": {
+    "product": "Charlie's Whole Pint",
+    "category": "Buttermilk"
+  },
+  "604": {
+    "product": "Peach Tea Plastic Pint",
+    "category": "Premium & Flavored Teas"
+  },
+  "207": {
+    "product": "Strawberry 6 oz",
+    "category": "Shakes"
+  },
+  "575": {
+    "product": "Peach Tea Paper Pint",
+    "category": "Premium & Flavored Teas"
+  },
+  "337": {
+    "product": "Caramel Cr\u00e8me 12 oz (CS/8 only)",
+    "category": "Coffee Tree  Roasters"
+  },
+  "208": {
+    "product": "Vanilla 6 oz",
+    "category": "Shakes"
+  },
+  "579": {
+    "product": "Raspbry Tea HGL",
+    "category": "Premium & Flavored Teas"
+  },
+  "338": {
+    "product": "Mocha Cr\u00e8me 12 oz (CS/8 only)",
+    "category": "Coffee Tree  Roasters"
+  },
+  "209": {
+    "product": "Chocolate 6 oz",
+    "category": "Shakes"
+  },
+  "578": {
+    "product": "Raspberry Tea Paper Pint",
+    "category": "Premium & Flavored Teas"
+  },
+  "339": {
+    "product": "Vanilla Cr\u00e8me 12 oz (CS/8 only)",
+    "category": "Coffee Tree  Roasters"
+  },
+  "571": {
+    "product": "Lime Tea Paper Pint",
+    "category": "Premium & Flavored Teas"
+  },
+  "330": {
+    "product": "Cold Brew 12 oz (CS/8 only)",
+    "category": "Coffee Tree  Roasters"
+  },
+  "542": {
+    "product": "Super Orange Drink 12 oz",
+    "category": "Super Bev"
+  },
+  "588": {
+    "product": "Green Tea Gallon (CS/4 only)",
+    "category": "Premium & Flavored Teas"
+  },
+  "559": {
+    "product": "Cold Brew Gallon (CS/4 only)",
+    "category": "Coffee Tree  Roasters"
+  },
+  "546": {
+    "product": "Super Tea Black & Gold 12 oz",
+    "category": "Super Bev"
+  },
+  "589": {
+    "product": "Green Tea HGL",
+    "category": "Premium & Flavored Teas"
+  },
+  "548": {
+    "product": "Super Blue 12 oz",
+    "category": "Super Bev"
+  },
+  "608": {
+    "product": "Green Tea Plastic Pint",
+    "category": "Premium & Flavored Teas"
+  },
+  "295": {
+    "product": "House Water Gallon (CS/4 only)",
+    "category": "Water"
+  },
+  "573": {
+    "product": "Diet Decaf HPT (CS/50 only)",
+    "category": "Premium & Flavored Teas"
+  },
+  "309": {
+    "product": "Tyler Mtn 0.5 L (CS/24 only)",
+    "category": "Water"
+  },
+  "303": {
+    "product": "Unsweetened HPT (CS/50 only)",
+    "category": "Premium & Flavored Teas"
+  },
+  "306": {
+    "product": "Tyler Mtn 10 oz (CS/24 only)",
+    "category": "Water"
+  }
+}

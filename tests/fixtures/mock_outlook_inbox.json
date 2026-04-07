@@ -1,0 +1,54 @@
+[
+  {
+    "id": "msg-1001",
+    "internetMessageId": "<mock-order-1001@northwind.example>",
+    "subject": "Fwd: Blue Harbor Market #15 weekly order",
+    "sender": {
+      "name": "Orders Mailbox",
+      "address": "intake@northwind.example"
+    },
+    "receivedAt": "2026-04-04T13:15:00Z",
+    "bodyContentType": "html",
+    "body": "<p>---------- Forwarded message ---------</p><p><b>From:</b> Jordan Lee &lt;orders@blueharbor.example&gt;<br><b>Subject:</b> Blue Harbor Market #15 weekly order</p><p>Acct # 8306<br>Deliver on 4/6/26</p><p>#3 Whole Milk Gallon - 24 cases<br>#31 2% Milk Gallon - 18 cases<br>#72 Half &amp; Half Quart - 6 cases</p><p>Leave at rear dock.</p>",
+    "attachments": []
+  },
+  {
+    "id": "msg-1002",
+    "internetMessageId": "<mock-order-1002@northwind.example>",
+    "subject": "Fwd: Redwood School District cafeteria order",
+    "sender": {
+      "name": "Orders Mailbox",
+      "address": "intake@northwind.example"
+    },
+    "receivedAt": "2026-04-04T15:20:00Z",
+    "bodyContentType": "html",
+    "body": "<p>---------- Forwarded message ---------</p><p><b>From:</b> Casey Bennett &lt;nutrition@redwoodschools.example&gt;<br><b>Subject:</b> Redwood School District cafeteria order</p><p>Account 44021<br>Delivery Date 04/07/2026</p><p>#9 Whole Milk Half Pint - 120 cases<br>#34 2% Milk Half Pint - 90 cases<br>#54 Chocolate Half Pint - 110 cases</p><p>Deliver to central warehouse before 7 AM.</p>",
+    "attachments": []
+  },
+  {
+    "id": "msg-1003",
+    "internetMessageId": "<mock-order-1003@northwind.example>",
+    "subject": "Fwd: Night Owl Cafe restock",
+    "sender": {
+      "name": "Orders Mailbox",
+      "address": "intake@northwind.example"
+    },
+    "receivedAt": "2026-04-05T07:05:00Z",
+    "bodyContentType": "html",
+    "body": "<p>---------- Forwarded message ---------</p><p><b>From:</b> Sam Ortiz &lt;sam@nightowl.example&gt;<br><b>Subject:</b> Night Owl Cafe restock</p><p>Please send the usual order tomorrow.</p><p>#83 Fresh Heavy Cream Quart - 4 cases<br>#999 Seasonal test product - 8 cases</p><p>Need an ETA if possible.</p>",
+    "attachments": []
+  },
+  {
+    "id": "msg-1004",
+    "internetMessageId": "<mock-order-1001@northwind.example>",
+    "subject": "Fwd: Blue Harbor Market #15 weekly order",
+    "sender": {
+      "name": "Orders Mailbox",
+      "address": "intake@northwind.example"
+    },
+    "receivedAt": "2026-04-04T13:15:00Z",
+    "bodyContentType": "html",
+    "body": "<p>---------- Forwarded message ---------</p><p><b>From:</b> Jordan Lee &lt;orders@blueharbor.example&gt;<br><b>Subject:</b> Blue Harbor Market #15 weekly order</p><p>Acct # 8306<br>Deliver on 4/6/26</p><p>#3 Whole Milk Gallon - 24 cases<br>#31 2% Milk Gallon - 18 cases<br>#72 Half &amp; Half Quart - 6 cases</p><p>Leave at rear dock.</p>",
+    "attachments": []
+  }
+]

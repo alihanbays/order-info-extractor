@@ -1,0 +1,9 @@
+.git
+__pycache__/
+*.pyc
+artifacts/
+venv/
+env/
+ENV/
+.streamlit/
+.DS_Store

@@ -1,20 +1,37 @@
 # Order Info Extractor
 
-Extracts order information from Outlook emails using AI and outputs Turner's ERP-compatible text files.
+A production-style ingestion pipeline that reads Outlook orders, uses LLM-assisted parsing to extract structured line items, validates them against a product catalog, and exports ERP-ready batch files.
 
-Emails are fetched via Microsoft Graph API, parsed with OpenAI to identify products/quantities/accounts, and matched against Turner Dairy's product catalog.
+The project is intentionally public and sanitized:
 
-## Output
+- The default runtime uses mock Outlook fixtures instead of a real mailbox.
+- A fixture-backed LLM response layer makes the demo fully runnable without secrets.
+- Microsoft Graph and OpenAI can be enabled by swapping the source provider in `config.json`.
 
-**ERP text file** (tab-delimited, ready for Turner's ERP):
+## Demo Screens
+
+![Sanitized dashboard demo](docs/images/demo-dashboard.svg)
+
+![Manual review queue](docs/images/manual-review.svg)
+
+## Architecture
+
+```mermaid
+flowchart LR
+    A["Mock Outlook inbox or Microsoft Graph"] --> B["Normalize message + attachments"]
+    B --> C["Deterministic attachment parsers<br/>Excel / PDF"]
+    B --> D["LLM email parser<br/>OpenAI or fixture stub"]
+    C --> E["Canonical order model"]
+    D --> E
+    E --> F["Catalog enrichment + validation"]
+    F --> G{"High confidence<br/>and no blocking errors?"}
+    G -->|Yes| H["ERP batch export + manifest"]
+    G -->|No| I["Manual review case JSON"]
+    E --> J["SQLite idempotency store"]
+    F --> K["Structured JSON logs + run manifest"]
 ```
-H	8306	8306	02/18/26
-D	3	cases	24
-D	31	cases	36
-E
-```
 
-## Setup
+## Quickstart
 
 ### 1. Install dependencies
 
@@ -22,48 +39,101 @@ E
 python3 -m pip install -r requirements.txt
 ```
 
-### 2. Configure credentials
+### 2. Run the fixture-backed pipeline
 
 ```bash
-cp config.example.json config.json
+python3 main.py --source fixture
 ```
 
-Edit `config.json` with:
+This processes the sanitized mock inbox in [`tests/fixtures/mock_outlook_inbox.json`](tests/fixtures/mock_outlook_inbox.json), writes artifacts to `artifacts/`, exports approved orders to ERP text format, and routes low-confidence orders into `artifacts/manual_review/`.
 
-- **Microsoft Graph API** credentials (client ID, client secret, tenant ID, user email) — requires `Mail.Read` and `Mail.ReadWrite` application permissions
-- **OpenAI API** key
+### 3. Launch the Streamlit demo dashboard
 
-### 3. Run
-
-**Web UI** (recommended):
 ```bash
-python3 -m streamlit run ui_streamlit.py
+streamlit run ui_streamlit.py
 ```
 
-The UI has two tabs:
-- **Compose & Send** — build and send test order emails to the mailbox
-- **Fetch & Process** — fetch emails from Outlook, extract orders, download ERP text file
+### 4. Run the test suite
 
-**CLI**:
 ```bash
-python3 main.py --limit 10
-python3 main.py --subject-filter "order"
-python3 main.py --from-date 2026-02-01
-python3 main.py --email-id <MESSAGE_ID>
+python3 -m unittest discover -s tests -v
 ```
 
-## Project Structure
+## Docker
 
+Run the dashboard:
+
+```bash
+docker compose up demo-ui
 ```
-main.py              CLI entry point
-ui_streamlit.py      Streamlit web UI
+
+Run the batch pipeline:
+
+```bash
+docker compose run --rm demo-cli
+```
+
+## Live Graph/OpenAI Mode
+
+Copy `config.example.json` to `config.json` and update:
+
+- `source.provider` to `"graph"`
+- `source.client_id`, `source.client_secret`, `source.tenant_id`, `source.user_email`
+- `openai.api_key`
+
+Then run:
+
+```bash
+python3 main.py --source graph --limit 25
+```
+
+## Output Artifacts
+
+Each run generates a small artifact set under `artifacts/`:
+
+- `exports/*.txt`: ERP-ready H/D/E batch file
+- `exports/*.manifest.json`: export summary
+- `manual_review/*.json`: cases that need human validation
+- `logs/pipeline.jsonl`: structured pipeline logs
+- `runs/run_<id>.json`: full run manifest
+- `state/pipeline_state.sqlite3`: idempotency store
+
+## Example ERP Output
+
+```text
+H	8306			8306										4/6/2026
+D	3	CASE	24.0
+D	31	CASE	18.0
+D	72	CASE	6.0
+E
+```
+
+## Project Layout
+
+```text
+order_info_extractor/
+  clients/             Inbox + LLM client implementations
+  catalog.py           Product enrichment and validation
+  config.py            Typed configuration
+  exporters.py         ERP export writer
+  factory.py           Runtime wiring
+  observability.py     Structured logging
+  pipeline.py          End-to-end orchestration
+  state.py             SQLite idempotency store
 src/
-  outlook.py         Microsoft Graph API client
-  ai_parser.py       OpenAI order extraction + product catalog
-  order_processor.py Orchestrates text and attachment parsing
-  excel_parser.py    Parses Excel attachment order forms
-  erp_writer.py      Turner's ERP text file output (H/D/E format)
-  product_catalog.json  Turner Dairy product catalog
-  utils.py           Date parsing, HTML cleaning
+  excel_parser.py      Preserved deterministic spreadsheet parser
+  pdf_parser.py        Preserved deterministic PDF parser
+tests/
+  fixtures/            Mock Outlook inbox and LLM outputs
+  test_pipeline.py     End-to-end fixture integration tests
+ui_streamlit.py        Sanitized demo dashboard
+main.py                CLI entrypoint
 ```
-# Order-Info-Extractor
+
+## Design Notes
+
+- Approved orders require both a confidence score above the configured threshold and no blocking validation errors.
+- Unknown products, missing core fields, or empty line-item lists go to manual review instead of silently exporting bad data.
+- The fixture source intentionally includes a duplicate message to demonstrate idempotent handling.
+- The Streamlit app uses the same pipeline as the CLI, which keeps the demo surface honest.
+

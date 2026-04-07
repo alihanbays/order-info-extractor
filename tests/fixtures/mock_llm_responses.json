@@ -1,0 +1,80 @@
+{
+  "msg-1001": {
+    "customer_name": "Blue Harbor Market #15",
+    "customer_email": "orders@blueharbor.example",
+    "account_number": "8306",
+    "delivery_date": "2026-04-06",
+    "order_date": "2026-04-04",
+    "notes": "Leave at rear dock.",
+    "line_items": [
+      {
+        "product_number": "3",
+        "quantity": 24,
+        "unit": "cases",
+        "description": "Whole Milk Gallon"
+      },
+      {
+        "product_number": "31",
+        "quantity": 18,
+        "unit": "cases",
+        "description": "2% Milk Gallon"
+      },
+      {
+        "product_number": "72",
+        "quantity": 6,
+        "unit": "cases",
+        "description": "Half & Half Quart"
+      }
+    ]
+  },
+  "msg-1002": {
+    "customer_name": "Redwood School District",
+    "customer_email": "nutrition@redwoodschools.example",
+    "account_number": "44021",
+    "delivery_date": "2026-04-07",
+    "order_date": "2026-04-04",
+    "notes": "Deliver to central warehouse before 7 AM.",
+    "line_items": [
+      {
+        "product_number": "9",
+        "quantity": 120,
+        "unit": "cases",
+        "description": "Whole Milk Half Pint"
+      },
+      {
+        "product_number": "34",
+        "quantity": 90,
+        "unit": "cases",
+        "description": "2% Milk Half Pint"
+      },
+      {
+        "product_number": "54",
+        "quantity": 110,
+        "unit": "cases",
+        "description": "Chocolate Half Pint"
+      }
+    ]
+  },
+  "msg-1003": {
+    "customer_name": "Night Owl Cafe",
+    "customer_email": "sam@nightowl.example",
+    "account_number": "",
+    "delivery_date": "2026-04-06",
+    "order_date": "2026-04-05",
+    "notes": "Need an ETA if possible.",
+    "line_items": [
+      {
+        "product_number": "83",
+        "quantity": 4,
+        "unit": "cases",
+        "description": "Fresh Heavy Cream Quart"
+      },
+      {
+        "product_number": "999",
+        "quantity": 8,
+        "unit": "cases",
+        "description": "Seasonal test product"
+      }
+    ]
+  }
+}

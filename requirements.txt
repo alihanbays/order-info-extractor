@@ -1,0 +1,20 @@
+# Microsoft Graph API
+msal>=1.24.0
+requests>=2.31.0
+
+# Attachment and document parsing
+openpyxl>=3.1.2
+xlrd>=2.0.1
+pdfplumber>=0.10.0
+
+# AI/LLM
+openai>=1.3.0
+
+# CLI
+click>=8.1.7
+
+# Configuration and validation
+pydantic>=2.5.0
+
+# Demo UI
+streamlit>=1.28.0
