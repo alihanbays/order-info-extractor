@@ -107,33 +107,3 @@ D	31	CASE	18.0
 D	72	CASE	6.0
 E
 ```
-
-## Project Layout
-
-```text
-order_info_extractor/
-  clients/             Inbox + LLM client implementations
-  catalog.py           Product enrichment and validation
-  config.py            Typed configuration
-  exporters.py         ERP export writer
-  factory.py           Runtime wiring
-  observability.py     Structured logging
-  pipeline.py          End-to-end orchestration
-  state.py             SQLite idempotency store
-src/
-  excel_parser.py      Preserved deterministic spreadsheet parser
-  pdf_parser.py        Preserved deterministic PDF parser
-tests/
-  fixtures/            Mock Outlook inbox and LLM outputs
-  test_pipeline.py     End-to-end fixture integration tests
-ui_streamlit.py        Sanitized demo dashboard
-main.py                CLI entrypoint
-```
-
-## Design Notes
-
-- Approved orders require both a confidence score above the configured threshold and no blocking validation errors.
-- Unknown products, missing core fields, or empty line-item lists go to manual review instead of silently exporting bad data.
-- The fixture source intentionally includes a duplicate message to demonstrate idempotent handling.
-- The Streamlit app uses the same pipeline as the CLI, which keeps the demo surface honest.
-
