@@ -1,4 +1,4 @@
-# Order Info Extractor
+# LLM Order Extractor
 
 A production-style ingestion pipeline that reads Outlook orders, uses LLM-assisted parsing to extract structured line items, validates them against a product catalog, and exports ERP-ready batch files.
 
@@ -10,9 +10,13 @@ The project is intentionally public and sanitized:
 
 ## Demo Screens
 
-![Sanitized dashboard demo](docs/images/demo-dashboard.svg)
+![Operations dashboard](docs/images/demo-dashboard.svg)
 
-![Manual review queue](docs/images/manual-review.svg)
+*Operations view with polished status language, parser-path summaries, and a recruiter-friendly batch overview.*
+
+![Review workspace](docs/images/manual-review.svg)
+
+*Review workspace showing action-oriented issue framing instead of raw internal validation codes.*
 
 ## Architecture
 
@@ -136,4 +140,3 @@ main.py                CLI entrypoint
 - Unknown products, missing core fields, or empty line-item lists go to manual review instead of silently exporting bad data.
 - The fixture source intentionally includes a duplicate message to demonstrate idempotent handling.
 - The Streamlit app uses the same pipeline as the CLI, which keeps the demo surface honest.
-

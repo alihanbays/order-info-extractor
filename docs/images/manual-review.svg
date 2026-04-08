@@ -1,8 +1,8 @@
 <svg width="1440" height="900" viewBox="0 0 1440 900" fill="none" xmlns="http://www.w3.org/2000/svg">
   <rect width="1440" height="900" fill="#F7F1E7"/>
   <rect x="96" y="72" width="1248" height="756" rx="30" fill="#FFF9F3" stroke="#DED2C6"/>
-  <text x="132" y="132" fill="#C05746" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="1.2">MANUAL REVIEW CASE</text>
-  <text x="132" y="186" fill="#13212F" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="42" font-weight="700">Night Owl Cafe restock</text>
+  <text x="132" y="132" fill="#C05746" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="1.2">REVIEW WORKSPACE</text>
+  <text x="132" y="186" fill="#13212F" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="42" font-weight="700">Night Owl Cafe intake</text>
   <text x="132" y="220" fill="#5D6A73" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="20">The parser extracted one known item and one catalog miss, so the order is held before export.</text>
 
   <rect x="132" y="274" width="344" height="120" rx="20" fill="#FFFDF9" stroke="#E7DCCF"/>
@@ -12,9 +12,9 @@
   <text x="156" y="362" fill="#13212F" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="42" font-weight="700">0.58</text>
   <text x="518" y="318" fill="#7A8790" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="16" letter-spacing="1">STATUS</text>
   <rect x="518" y="336" width="144" height="32" rx="16" fill="#F3DFD9"/>
-  <text x="540" y="357" fill="#C05746" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="14" font-weight="700">manual_review</text>
-  <text x="880" y="318" fill="#7A8790" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="16" letter-spacing="1">REVIEW FILE</text>
-  <text x="880" y="362" fill="#13212F" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="20">artifacts/manual_review/msg-1003.json</text>
+  <text x="537" y="357" fill="#C05746" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="14" font-weight="700">Needs Review</text>
+  <text x="880" y="318" fill="#7A8790" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="16" letter-spacing="1">REVIEW ARTIFACT</text>
+  <text x="880" y="362" fill="#13212F" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="20">Reviewer packet generated</text>
 
   <rect x="132" y="434" width="560" height="326" rx="24" fill="#FFFDF9" stroke="#E7DCCF"/>
   <text x="164" y="476" fill="#7A8790" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="16" letter-spacing="1">EXTRACTED ORDER</text>
@@ -26,11 +26,11 @@
   <text x="164" y="730" fill="#5D6A73" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="18">Notes: Need an ETA if possible.</text>
 
   <rect x="724" y="434" width="584" height="326" rx="24" fill="#FFFDF9" stroke="#E7DCCF"/>
-  <text x="756" y="476" fill="#7A8790" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="16" letter-spacing="1">VALIDATION FINDINGS</text>
+  <text x="756" y="476" fill="#7A8790" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="16" letter-spacing="1">REVIEW FINDINGS</text>
   <rect x="756" y="516" width="520" height="86" rx="16" fill="#FFF6F3" stroke="#F0D7D0"/>
-  <text x="784" y="552" fill="#C05746" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="18" font-weight="700">unknown_product</text>
-  <text x="784" y="582" fill="#5D6A73" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="18">Product 999 was not found in the catalog.</text>
+  <text x="784" y="552" fill="#C05746" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="18" font-weight="700">Catalog match pending</text>
+  <text x="784" y="582" fill="#5D6A73" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="18">One line item did not map cleanly to the product catalog.</text>
   <rect x="756" y="620" width="520" height="86" rx="16" fill="#FFFDF9" stroke="#E7DCCF"/>
-  <text x="784" y="656" fill="#13212F" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="18" font-weight="700">missing_account_number</text>
-  <text x="784" y="686" fill="#5D6A73" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="18">Account number is missing and should be confirmed before export.</text>
+  <text x="784" y="656" fill="#13212F" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="18" font-weight="700">Account mapping needed</text>
+  <text x="784" y="686" fill="#5D6A73" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="18">Customer account reference could not be resolved.</text>
 </svg>
