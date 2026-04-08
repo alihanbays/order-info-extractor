@@ -22,33 +22,33 @@
   <text x="1032" y="366" fill="#13212F" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="34" font-weight="700">eb3df35e</text>
 
   <rect x="112" y="428" width="796" height="356" rx="24" fill="#FFFDF9" stroke="#E7DCCF"/>
-  <text x="144" y="470" fill="#7A8790" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="16" letter-spacing="1">PROCESSED MESSAGES</text>
+  <text x="144" y="470" fill="#7A8790" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="16" letter-spacing="1">RECENT ORDER BATCHES</text>
   <rect x="144" y="500" width="732" height="48" rx="14" fill="#F6EFE6"/>
-  <text x="168" y="530" fill="#5D6A73" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="15" font-weight="700">message_id</text>
-  <text x="340" y="530" fill="#5D6A73" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="15" font-weight="700">status</text>
-  <text x="488" y="530" fill="#5D6A73" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="15" font-weight="700">customer</text>
-  <text x="708" y="530" fill="#5D6A73" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="15" font-weight="700">parser</text>
+  <text x="168" y="530" fill="#5D6A73" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="15" font-weight="700">Batch</text>
+  <text x="340" y="530" fill="#5D6A73" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="15" font-weight="700">Status</text>
+  <text x="488" y="530" fill="#5D6A73" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="15" font-weight="700">Customer</text>
+  <text x="708" y="530" fill="#5D6A73" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="15" font-weight="700">Parser path</text>
 
   <rect x="144" y="562" width="732" height="58" rx="14" fill="#FFFFFF" stroke="#EFE3D8"/>
-  <text x="168" y="598" fill="#13212F" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="16">msg-1001</text>
+  <text x="168" y="598" fill="#13212F" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="16">Batch A-104</text>
   <rect x="328" y="576" width="94" height="28" rx="14" fill="#DDEDEA"/>
-  <text x="350" y="595" fill="#2B6D6A" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="14" font-weight="700">approved</text>
+  <text x="340" y="595" fill="#2B6D6A" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="14" font-weight="700">Approved</text>
   <text x="488" y="598" fill="#13212F" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="16">Blue Harbor Market #15</text>
-  <text x="708" y="598" fill="#13212F" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="16">fixture_llm</text>
+  <text x="708" y="598" fill="#13212F" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="16">LLM fallback</text>
 
   <rect x="144" y="630" width="732" height="58" rx="14" fill="#FFFFFF" stroke="#EFE3D8"/>
-  <text x="168" y="666" fill="#13212F" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="16">msg-1002</text>
+  <text x="168" y="666" fill="#13212F" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="16">Batch A-105</text>
   <rect x="328" y="644" width="94" height="28" rx="14" fill="#DDEDEA"/>
-  <text x="350" y="663" fill="#2B6D6A" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="14" font-weight="700">approved</text>
+  <text x="340" y="663" fill="#2B6D6A" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="14" font-weight="700">Approved</text>
   <text x="488" y="666" fill="#13212F" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="16">Redwood School District</text>
-  <text x="708" y="666" fill="#13212F" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="16">fixture_llm</text>
+  <text x="708" y="666" fill="#13212F" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="16">LLM fallback</text>
 
   <rect x="144" y="698" width="732" height="58" rx="14" fill="#FFFFFF" stroke="#EFE3D8"/>
-  <text x="168" y="734" fill="#13212F" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="16">msg-1003</text>
+  <text x="168" y="734" fill="#13212F" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="16">Batch A-106</text>
   <rect x="328" y="712" width="126" height="28" rx="14" fill="#F3DFD9"/>
-  <text x="350" y="731" fill="#C05746" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="14" font-weight="700">manual_review</text>
+  <text x="345" y="731" fill="#C05746" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="14" font-weight="700">Needs Review</text>
   <text x="488" y="734" fill="#13212F" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="16">Night Owl Cafe</text>
-  <text x="708" y="734" fill="#13212F" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="16">fixture_llm</text>
+  <text x="708" y="734" fill="#13212F" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="16">LLM fallback</text>
 
   <rect x="936" y="428" width="392" height="170" rx="24" fill="#FFFDF9" stroke="#E7DCCF"/>
   <text x="968" y="470" fill="#7A8790" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="16" letter-spacing="1">RUNTIME SURFACE</text>
@@ -59,6 +59,6 @@
   <rect x="936" y="620" width="392" height="164" rx="24" fill="#FFFDF9" stroke="#E7DCCF"/>
   <text x="968" y="662" fill="#7A8790" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="16" letter-spacing="1">MANUAL REVIEW QUEUE</text>
   <rect x="968" y="692" width="328" height="54" rx="14" fill="#FFF6F3" stroke="#F0D7D0"/>
-  <text x="990" y="724" fill="#13212F" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="16">msg-1003 · Night Owl Cafe</text>
-  <text x="990" y="748" fill="#C05746" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="14">missing_account_number, unknown_product</text>
+  <text x="990" y="720" fill="#13212F" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="16">Night Owl Cafe intake</text>
+  <text x="990" y="738" fill="#C05746" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="14">Account mapping - Catalog match pending</text>
 </svg>
